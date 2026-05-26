@@ -1,0 +1,3 @@
+Primeiro post do meu blog
+Este é um gerador de sites estáticos.
+Haskell e Lazy Evaluation são incríveis.

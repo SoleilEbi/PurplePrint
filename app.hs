@@ -12,6 +12,7 @@ strConvert str
     | "# "  `isPrefixOf` str = "<h1>" ++ drop 2 str ++ "</h1>"
     -- Imagens
     | "#img " `isPrefixOf` str = "<div class=\"post-image\"><img src=\"" ++ drop 5 str ++ "\"></div>"
+    | str == "#- " || "#-" `isPrefixOf` str = "<hr>"
     --Parágrafo
     | otherwise = "<p>" ++ str ++ "</p>"
 

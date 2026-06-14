@@ -1,0 +1,15 @@
+---
+titulo: Meu Primeiro Post
+data: 14-06-2026
+---
+
+# Testando
+
+## Alou
+
+Você está lendo este Blog! :D
+
+
+#img ../content/img/pfp.png
+
+Girassol
